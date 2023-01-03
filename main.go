@@ -37,6 +37,4 @@ fmt.Printf("SERVER IS LIVE @ PORT 3000");
 if err:= http.ListenAndServe(":3000",nil);err!=nil{//USES A PORT 
 	log.Fatal((err))
 }
-
-
 }
